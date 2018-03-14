@@ -1,0 +1,174 @@
+/*// <!-- 
+// \*Yashodha Samarawickrama */
+
+
+#inputOutput {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
+}
+#calculator {
+    width:300px;
+    height:400px;
+    background:gray;
+    margin:50px auto;
+}
+body {
+  background:#003B46;
+}
+
+#inputOutput:hover {
+    
+    cursor: text;
+    
+}
+button {
+    border:0;
+    color:#fff;
+}
+
+#inputOutput {
+    display:block;
+    font-family: sans-serif;
+    width:247px;
+    height:40px;
+    margin:10px auto;
+    text-align: right;
+    border:0;
+    background:#3b3535;
+    color:#fff;
+    padding-top:20px;
+    font-size:20px;
+    margin-left: 25px;
+    outline: none;
+    overflow: hidden;
+    letter-spacing: 4px;
+    position: relative;
+    top:10px;
+}
+
+#inputOutput:hover {
+    
+    cursor: text;
+    
+}
+
+#first-row {
+    margin-bottom: 20px;
+    position: relative;
+    top:10px;
+}
+
+.row {
+    width:300px;
+    margin-top:10px;
+
+}
+
+
+/* Adding background color to the number values */
+ .btn-primary {
+    background:#000;
+    color:#fff;
+    font-size:36px;
+    cursor:pointer;
+    outline:none;
+    border-bottom:3px solid #333;
+
+}
+
+
+
+/*Adding background color to the operator values */ 
+.btn-info {
+    background:#333;
+    color:#fff;
+    font-size:36px;
+    cursor: pointer;
+    outline:none;
+    border-bottom:3px solid #555;
+}
+.btn {
+    width:50px;
+    height:50px;
+    margin-left:16px;
+    margin-top: 2px;
+    border-radius:4px;
+}
+
+.btn-info:active {
+    background:#333;
+    color:#fff;
+    font-size:36px;
+    cursor: pointer;
+    outline:none;
+    box-shadow: inset 4px 4px 4px #555;
+}
+
+/*Adding a background color to the delete button */
+#delete {
+    background:#24b4de;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    border-bottom:3px solid #399cb9;
+    width:110px;
+    height:50px;
+    margin-left:25px;
+    border-radius:4px;
+}
+
+.delete:active {
+    background:#24b4de;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    box-shadow: inset 4px 4px 4px #399cb9;
+}
+
+/*Adding a background color to the equals to button */
+.btn-success{
+    background:#FFBB00;
+    color:#fff;
+    font-size:36px;
+    cursor: pointer;
+    outline:none;
+    border-bottom:3px solid #FFBB00;
+}
+
+.btn-success {
+    background:#;
+    color:#fff;
+    font-size:36px;
+    cursor: pointer;
+    outline:none;
+    
+}
+
+#delete1 {
+    background:#24b4de;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    border-bottom:3px solid #399cb9;
+    width:110px;
+    height:50px;
+    margin-left:25px;
+    border-radius:4px;
+}
+
+.delete1:active {
+    background:#24b4de;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    box-shadow: inset 4px 4px 4px #399cb9;
+}
